@@ -34,6 +34,10 @@ public class Hesap {
         this.bakiye = bakiye;
     }
 
+
+    //Ekstra 2 metod daha ekleyeceğiz;
+
+
     public void paraYatir(int tutar) {
 
         bakiye += tutar;

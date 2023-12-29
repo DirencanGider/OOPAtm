@@ -13,7 +13,7 @@ public class Login {
         System.out.println("Parola : ");
         parola = scanner.nextLine();
 
-        if (hesap.getKullanici_adi().equals(kullanici_adi) && hesap.getParola().equals(parola)){
+        if ((hesap.getKullanici_adi().equals(kullanici_adi)) && (hesap.getParola().equals(parola))){
 
             return true;
         }
