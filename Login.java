@@ -8,6 +8,11 @@ public class Login {
         String kullanici_adi;
         String parola;
 
+        System.out.println("Bankamıza Hoşgeldiniz");
+        System.out.println("************************");
+        System.out.println("Kullanıcı Girişi");
+        System.out.println("************************");
+
         System.out.println("Kullanıcı Adı : ");
         kullanici_adi = scanner.nextLine();
         System.out.println("Parola : ");

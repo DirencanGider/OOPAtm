@@ -33,7 +33,7 @@ public class ATM {
         String islemler = "1. Bakiye Görüntüleme\n"
                             +"2. Para Yatırma\n"
                             +"3. Para Çekme\n"
-                            "Çıkış için q'ya basınız";
+                            +"Çıkış için q'ya basınız";
         System.out.println(islemler);
         System.out.println("***************************************************************************");
 
@@ -57,10 +57,14 @@ public class ATM {
                 hesap.paraYatir(tutar);
             }
             else if (islem.equals("3")) {
-                System.out.println("Çekmek İstediğiniz Tutarı Giriniz");
+                System.out.println("Çekmek İstediğiniz Tutarı Giriniz : ");
                 int tutar = scanner.nextInt();
                 scanner.nextLine();
                 hesap.paraCek(tutar);
+            }
+            else {
+                System.out.println("Geçersiz işlem...");
+
             }
 
 
